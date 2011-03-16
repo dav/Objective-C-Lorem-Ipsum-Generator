@@ -1051,4 +1051,25 @@
   return [words autorelease];
 }
 
+- (NSString*)sentences:(NSUInteger)count
+{
+    NSMutableString *result = [NSMutableString string];
+    for (NSUInteger i = 0; i < count; i++) {
+        long numberOfWords = random() % 10 + 10; //range from 10-20 words
+        NSMutableString *sentence = [[self words:numberOfWords] mutableCopy];
+        NSString *firstChar = [sentence substringWithRange:NSMakeRange(0, 1)];
+        firstChar = [firstChar uppercaseString];
+        [sentence replaceCharactersInRange:NSMakeRange(0, 1) withString:firstChar];
+        [result appendString:sentence];
+        [sentence release];
+        
+        if (i+1 == count) { //last sentence
+            [result appendString:@"."];
+        } else {            
+            [result appendString:@". "];
+        }
+    }
+    return  result;
+}
+
 @end
