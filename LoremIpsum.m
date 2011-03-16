@@ -1017,6 +1017,7 @@
     [wordsArray addObject:@"vestibulum"];
     [wordsArray addObject:@"elit"];
     _words = [wordsArray copy];
+    [wordsArray release];
   }
   return self;
 }
