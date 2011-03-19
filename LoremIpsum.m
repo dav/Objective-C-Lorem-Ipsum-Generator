@@ -1052,8 +1052,7 @@
   return [words autorelease];
 }
 
-- (NSString*)sentences:(NSUInteger)count
-{
+- (NSString*) sentences:(NSUInteger)count {
     NSMutableString *result = [NSMutableString string];
     for (NSUInteger i = 0; i < count; i++) {
         long numberOfWords = random() % 10 + 10; //range from 10-20 words
