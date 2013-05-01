@@ -12,4 +12,6 @@
 - (NSString*) words:(NSUInteger)count;
 - (NSString*) sentences:(NSUInteger)count;
 
+- (NSString*) randomWord;
+
 @end
