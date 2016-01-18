@@ -123,7 +123,7 @@
     @autoreleasepool
     {
         NSString * collectedWords = [self randomWord];
-        for (NSUInteger i=0; i<count; i++) {
+        for (NSUInteger i=0; i<count - 1; i++) {
             collectedWords = [collectedWords stringByAppendingString:@" "];
             collectedWords = [collectedWords stringByAppendingString:[self randomWord]];
         }

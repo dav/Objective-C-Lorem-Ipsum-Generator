@@ -18,17 +18,12 @@
 		571AEB7D1731A56500BC1C15 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 571AEB7C1731A56500BC1C15 /* Default-568h@2x.png */; };
 		571AEB801731A56500BC1C15 /* LIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 571AEB7F1731A56500BC1C15 /* LIDViewController.m */; };
 		571AEB831731A56500BC1C15 /* LIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 571AEB811731A56500BC1C15 /* LIDViewController.xib */; };
-		571AEB8B1731A56500BC1C15 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571AEB8A1731A56500BC1C15 /* SenTestingKit.framework */; };
-		571AEB8C1731A56500BC1C15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571AEB661731A56400BC1C15 /* UIKit.framework */; };
-		571AEB8D1731A56500BC1C15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571AEB681731A56400BC1C15 /* Foundation.framework */; };
-		571AEB951731A56500BC1C15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 571AEB931731A56500BC1C15 /* InfoPlist.strings */; };
-		571AEB981731A56500BC1C15 /* LoremIpsumDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 571AEB971731A56500BC1C15 /* LoremIpsumDemoTests.m */; };
 		571AEBA41731A60F00BC1C15 /* LoremIpsum.m in Sources */ = {isa = PBXBuildFile; fileRef = 571AEBA31731A60F00BC1C15 /* LoremIpsum.m */; };
-		571AEBA51731A60F00BC1C15 /* LoremIpsum.m in Sources */ = {isa = PBXBuildFile; fileRef = 571AEBA31731A60F00BC1C15 /* LoremIpsum.m */; };
+		5793A7D01C4DAAFA00D0F27D /* LoremIpsumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5793A7CF1C4DAAFA00D0F27D /* LoremIpsumTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		571AEB8E1731A56500BC1C15 /* PBXContainerItemProxy */ = {
+		5793A7D21C4DAAFA00D0F27D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 571AEB5B1731A56400BC1C15 /* Project object */;
 			proxyType = 1;
@@ -54,14 +49,12 @@
 		571AEB7E1731A56500BC1C15 /* LIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIDViewController.h; sourceTree = "<group>"; };
 		571AEB7F1731A56500BC1C15 /* LIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIDViewController.m; sourceTree = "<group>"; };
 		571AEB821731A56500BC1C15 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LIDViewController.xib; sourceTree = "<group>"; };
-		571AEB891731A56500BC1C15 /* LoremIpsumDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoremIpsumDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		571AEB8A1731A56500BC1C15 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		571AEB921731A56500BC1C15 /* LoremIpsumDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoremIpsumDemoTests-Info.plist"; sourceTree = "<group>"; };
-		571AEB941731A56500BC1C15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		571AEB961731A56500BC1C15 /* LoremIpsumDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoremIpsumDemoTests.h; sourceTree = "<group>"; };
-		571AEB971731A56500BC1C15 /* LoremIpsumDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoremIpsumDemoTests.m; sourceTree = "<group>"; };
 		571AEBA21731A60F00BC1C15 /* LoremIpsum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoremIpsum.h; path = ../../LoremIpsum.h; sourceTree = "<group>"; };
 		571AEBA31731A60F00BC1C15 /* LoremIpsum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoremIpsum.m; path = ../../LoremIpsum.m; sourceTree = "<group>"; };
+		5793A7CD1C4DAAFA00D0F27D /* LoremIpsumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoremIpsumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5793A7CF1C4DAAFA00D0F27D /* LoremIpsumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoremIpsumTests.m; sourceTree = "<group>"; };
+		5793A7D11C4DAAFA00D0F27D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,13 +68,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		571AEB851731A56500BC1C15 /* Frameworks */ = {
+		5793A7CA1C4DAAFA00D0F27D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				571AEB8B1731A56500BC1C15 /* SenTestingKit.framework in Frameworks */,
-				571AEB8C1731A56500BC1C15 /* UIKit.framework in Frameworks */,
-				571AEB8D1731A56500BC1C15 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				571AEB6C1731A56400BC1C15 /* LoremIpsumDemo */,
-				571AEB901731A56500BC1C15 /* LoremIpsumDemoTests */,
+				5793A7CE1C4DAAFA00D0F27D /* LoremIpsumTests */,
 				571AEB651731A56400BC1C15 /* Frameworks */,
 				571AEB641731A56400BC1C15 /* Products */,
 			);
@@ -102,7 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				571AEB631731A56400BC1C15 /* LoremIpsumDemo.app */,
-				571AEB891731A56500BC1C15 /* LoremIpsumDemoTests.octest */,
+				5793A7CD1C4DAAFA00D0F27D /* LoremIpsumTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,25 +136,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		571AEB901731A56500BC1C15 /* LoremIpsumDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				571AEB961731A56500BC1C15 /* LoremIpsumDemoTests.h */,
-				571AEB971731A56500BC1C15 /* LoremIpsumDemoTests.m */,
-				571AEB911731A56500BC1C15 /* Supporting Files */,
-			);
-			path = LoremIpsumDemoTests;
-			sourceTree = "<group>";
-		};
-		571AEB911731A56500BC1C15 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				571AEB921731A56500BC1C15 /* LoremIpsumDemoTests-Info.plist */,
-				571AEB931731A56500BC1C15 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		571AEBA11731A5EE00BC1C15 /* External */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,6 +143,15 @@
 				571AEBA31731A60F00BC1C15 /* LoremIpsum.m */,
 			);
 			name = External;
+			sourceTree = "<group>";
+		};
+		5793A7CE1C4DAAFA00D0F27D /* LoremIpsumTests */ = {
+			isa = PBXGroup;
+			children = (
+				5793A7CF1C4DAAFA00D0F27D /* LoremIpsumTests.m */,
+				5793A7D11C4DAAFA00D0F27D /* Info.plist */,
+			);
+			path = LoremIpsumTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,24 +174,23 @@
 			productReference = 571AEB631731A56400BC1C15 /* LoremIpsumDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		571AEB881731A56500BC1C15 /* LoremIpsumDemoTests */ = {
+		5793A7CC1C4DAAFA00D0F27D /* LoremIpsumTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 571AEB9E1731A56500BC1C15 /* Build configuration list for PBXNativeTarget "LoremIpsumDemoTests" */;
+			buildConfigurationList = 5793A7D41C4DAAFA00D0F27D /* Build configuration list for PBXNativeTarget "LoremIpsumTests" */;
 			buildPhases = (
-				571AEB841731A56500BC1C15 /* Sources */,
-				571AEB851731A56500BC1C15 /* Frameworks */,
-				571AEB861731A56500BC1C15 /* Resources */,
-				571AEB871731A56500BC1C15 /* ShellScript */,
+				5793A7C91C4DAAFA00D0F27D /* Sources */,
+				5793A7CA1C4DAAFA00D0F27D /* Frameworks */,
+				5793A7CB1C4DAAFA00D0F27D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				571AEB8F1731A56500BC1C15 /* PBXTargetDependency */,
+				5793A7D31C4DAAFA00D0F27D /* PBXTargetDependency */,
 			);
-			name = LoremIpsumDemoTests;
-			productName = LoremIpsumDemoTests;
-			productReference = 571AEB891731A56500BC1C15 /* LoremIpsumDemoTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			name = LoremIpsumTests;
+			productName = LoremIpsumTests;
+			productReference = 5793A7CD1C4DAAFA00D0F27D /* LoremIpsumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -220,8 +199,15 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = LID;
-				LastUpgradeCheck = 0460;
+				LastTestingUpgradeCheck = 0720;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = SekaiNo;
+				TargetAttributes = {
+					5793A7CC1C4DAAFA00D0F27D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 571AEB621731A56400BC1C15;
+					};
+				};
 			};
 			buildConfigurationList = 571AEB5E1731A56400BC1C15 /* Build configuration list for PBXProject "LoremIpsumDemo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -236,7 +222,7 @@
 			projectRoot = "";
 			targets = (
 				571AEB621731A56400BC1C15 /* LoremIpsumDemo */,
-				571AEB881731A56500BC1C15 /* LoremIpsumDemoTests */,
+				5793A7CC1C4DAAFA00D0F27D /* LoremIpsumTests */,
 			);
 		};
 /* End PBXProject section */
@@ -254,31 +240,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		571AEB861731A56500BC1C15 /* Resources */ = {
+		5793A7CB1C4DAAFA00D0F27D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				571AEB951731A56500BC1C15 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		571AEB871731A56500BC1C15 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		571AEB5F1731A56400BC1C15 /* Sources */ = {
@@ -292,22 +261,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		571AEB841731A56500BC1C15 /* Sources */ = {
+		5793A7C91C4DAAFA00D0F27D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				571AEB981731A56500BC1C15 /* LoremIpsumDemoTests.m in Sources */,
-				571AEBA51731A60F00BC1C15 /* LoremIpsum.m in Sources */,
+				5793A7D01C4DAAFA00D0F27D /* LoremIpsumTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		571AEB8F1731A56500BC1C15 /* PBXTargetDependency */ = {
+		5793A7D31C4DAAFA00D0F27D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 571AEB621731A56400BC1C15 /* LoremIpsumDemo */;
-			targetProxy = 571AEB8E1731A56500BC1C15 /* PBXContainerItemProxy */;
+			targetProxy = 5793A7D21C4DAAFA00D0F27D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -328,14 +296,6 @@
 			name = LIDViewController.xib;
 			sourceTree = "<group>";
 		};
-		571AEB931731A56500BC1C15 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				571AEB941731A56500BC1C15 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -353,6 +313,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -401,6 +362,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LoremIpsumDemo/LoremIpsumDemo-Prefix.pch";
 				INFOPLIST_FILE = "LoremIpsumDemo/LoremIpsumDemo-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sekaino.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -412,42 +374,65 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LoremIpsumDemo/LoremIpsumDemo-Prefix.pch";
 				INFOPLIST_FILE = "LoremIpsumDemo/LoremIpsumDemo-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sekaino.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		571AEB9F1731A56500BC1C15 /* Debug */ = {
+		5793A7D51C4DAAFA00D0F27D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LoremIpsumDemo.app/LoremIpsumDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LoremIpsumDemo/LoremIpsumDemo-Prefix.pch";
-				INFOPLIST_FILE = "LoremIpsumDemoTests/LoremIpsumDemoTests-Info.plist";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = LoremIpsumTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shyp.LoremIpsumTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoremIpsumDemo.app/LoremIpsumDemo";
 			};
 			name = Debug;
 		};
-		571AEBA01731A56500BC1C15 /* Release */ = {
+		5793A7D61C4DAAFA00D0F27D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LoremIpsumDemo.app/LoremIpsumDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LoremIpsumDemo/LoremIpsumDemo-Prefix.pch";
-				INFOPLIST_FILE = "LoremIpsumDemoTests/LoremIpsumDemoTests-Info.plist";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = LoremIpsumTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shyp.LoremIpsumTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoremIpsumDemo.app/LoremIpsumDemo";
 			};
 			name = Release;
 		};
@@ -470,12 +455,13 @@
 				571AEB9D1731A56500BC1C15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		571AEB9E1731A56500BC1C15 /* Build configuration list for PBXNativeTarget "LoremIpsumDemoTests" */ = {
+		5793A7D41C4DAAFA00D0F27D /* Build configuration list for PBXNativeTarget "LoremIpsumTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				571AEB9F1731A56500BC1C15 /* Debug */,
-				571AEBA01731A56500BC1C15 /* Release */,
+				5793A7D51C4DAAFA00D0F27D /* Debug */,
+				5793A7D61C4DAAFA00D0F27D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
