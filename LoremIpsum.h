@@ -9,9 +9,9 @@
 
 @interface LoremIpsum : NSObject
 
-- (NSString*) words:(NSUInteger)count;
-- (NSString*) sentences:(NSUInteger)count;
++ (NSString*) words:(NSUInteger)count;
++ (NSString*) sentences:(NSUInteger)count;
 
-- (NSString*) randomWord;
++ (NSString*) randomWord;
 
 @end

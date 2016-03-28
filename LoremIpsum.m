@@ -7,14 +7,13 @@
 
 #import "LoremIpsum.h"
 
-@implementation LoremIpsum
-{
-    NSArray* _words;
-}
+static NSArray *_words;
 
-- (id) init
+@implementation LoremIpsum
+
++ (void) initialize
 {
-    if ((self = [super init]))
+    if (_words == nil)
     {
         _words = [@"lorem,ipsum,dolor,sit,amet,consectetuer,adipiscing,elit,integer,in,mi,a,mauris,"\
                   @"ornare,sagittis,suspendisse,potenti,suspendisse,dapibus,dignissim,dolor,nam,"\
@@ -102,12 +101,11 @@
                   @"justo,tristique,mattis,purus,eros,non,velit,aenean,sagittis,commodo,erat,"\
                   @"aliquam,id,lacus,morbi,vulputate,vestibulum,elit" componentsSeparatedByString:@","];
     }
-    return self;
 }
 
 #pragma mark -
 
-- (NSString*) randomWord
++ (NSString*) randomWord
 {
     NSInteger randomIndex = random() % [_words count];
     return [_words objectAtIndex:randomIndex];
@@ -115,7 +113,7 @@
 
 #pragma mark -
 
-- (NSString*) words:(NSUInteger)count
++ (NSString*) words:(NSUInteger)count
 {
     if (count==0) return @"";
     
@@ -134,7 +132,7 @@
     return words;
 }
 
-- (NSString*) sentences:(NSUInteger)count
++ (NSString*) sentences:(NSUInteger)count
 {
     NSMutableString *result = [NSMutableString string];
     for (NSUInteger i = 0; i < count; i++)
