@@ -15,7 +15,7 @@ static NSArray *_words;
 {
     if (_words == nil)
     {
-        _words = [@"lorem,ipsum,dolor,sit,amet,consectetuer,adipiscing,elit,integer,in,mi,a,mauris,"\
+        _words = [[@"lorem,ipsum,dolor,sit,amet,consectetuer,adipiscing,elit,integer,in,mi,a,mauris,"\
                   @"ornare,sagittis,suspendisse,potenti,suspendisse,dapibus,dignissim,dolor,nam,"\
                   @"sapien,tellus,tempus,et,tempus,ac,tincidunt,in,arcu,duis,dictum,proin,magna,"\
                   @"nulla,pellentesque,non,commodo,et,iaculis,sit,amet,mi,mauris,condimentum,massa,"\
@@ -99,7 +99,7 @@ static NSArray *_words;
                   @"mauris,aliquet,orci,quis,tellus,ut,mattis,praesent,mollis,consectetuer,quam,"\
                   @"nulla,nulla,nunc,accumsan,nunc,sit,amet,scelerisque,porttitor,nibh,pede,lacinia,"\
                   @"justo,tristique,mattis,purus,eros,non,velit,aenean,sagittis,commodo,erat,"\
-                  @"aliquam,id,lacus,morbi,vulputate,vestibulum,elit" componentsSeparatedByString:@","];
+                  @"aliquam,id,lacus,morbi,vulputate,vestibulum,elit" componentsSeparatedByString:@","] copy];
     }
 }
 
