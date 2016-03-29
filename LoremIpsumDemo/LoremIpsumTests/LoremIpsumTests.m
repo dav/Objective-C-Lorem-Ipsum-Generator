@@ -3,14 +3,12 @@
 #import "LoremIpsum.h"
 
 @interface LoremIpsumDemoTests : XCTestCase
-@property (nonatomic) LoremIpsum *lips;
 @end
 
 @implementation LoremIpsumDemoTests
 
 - (void)setUp {
     [super setUp];
-    self.lips = [LoremIpsum new];
 }
 
 - (void)tearDown {
@@ -20,7 +18,7 @@
 - (void)test_LoremIpsum_words {
     NSInteger expectedWordCount = 5;
     
-    NSString *string = [self.lips words:expectedWordCount];
+    NSString *string = [LoremIpsum words:expectedWordCount];
     
     NSArray *words = [string componentsSeparatedByString:@" "];
     
