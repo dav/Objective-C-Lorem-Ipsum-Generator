@@ -17,11 +17,9 @@
 @implementation LIDViewController
 
 - (IBAction)generateWords:(id)sender {
-  LoremIpsum* loremIpsum = [LoremIpsum new];
   int numWords = random() % 150 + 3;
-  NSString *bunchOfWords = [loremIpsum words:numWords];
+  NSString *bunchOfWords = [LoremIpsum words:numWords];
   self.textView.text = bunchOfWords;
-  
 }
 
 @end
