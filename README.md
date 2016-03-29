@@ -11,7 +11,6 @@ Maybe this will save you the 15 minutes I spent writing it. I based it from http
 
     NSString* defaultText = [LoremIpsum words:15];
     _textView.text = defaultText;
-    [loremIpsum release];
 
 ## License
 
