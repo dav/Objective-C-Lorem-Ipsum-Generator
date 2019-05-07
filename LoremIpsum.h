@@ -10,6 +10,7 @@
 @interface LoremIpsum : NSObject
 
 + (NSString*) words:(NSUInteger)count;
++ (NSString*) getQuote;
 + (NSString*) sentences:(NSUInteger)count;
 
 + (NSString*) randomWord;
